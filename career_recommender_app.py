@@ -38,10 +38,10 @@ def main():
     st.sidebar.header("Enter Your Profile")
     
     # Collect user inputs
-    user_skills = st.sidebar.text_input("Skills (separated by commas)", "programming, problem solving, data analysis")
-    user_interests = st.sidebar.text_input("Interests (separated by commas)", "technology, research, machine learning")
-    user_education = st.sidebar.text_input("Education (separated by commas)", "Computer Science")
-    user_personality = st.sidebar.text_input("Personality Traits (separated by commas)", "analytical, curious")
+    user_skills = st.sidebar.text_input("Skills (separated by commas)")
+    user_interests = st.sidebar.text_input("Interests (separated by commas)")
+    user_education = st.sidebar.text_input("Education (separated by commas)")
+    user_personality = st.sidebar.text_input("Personality Traits (separated by commas)")
     
     if st.sidebar.button("Get Recommendations"):
         # Process user inputs
