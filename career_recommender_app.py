@@ -17,7 +17,7 @@ def calculate_scores(user_profile, careers):
     weights = {
         'Skills': 3,
         'Interests': 2,
-        'Education': 2,
+        'Education': 1,
         'Personality': 1
     }
     
