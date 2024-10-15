@@ -59,7 +59,7 @@ def main():
         sorted_careers = sorted(scores.items(), key=lambda x: x[1], reverse=True)
         
         # Convert to DataFrame for better display
-        recommendations = pd.DataFrame(sorted_careers, columns=['Career', 'Score'])
+        recommendations = pd.DataFrame(sorted_careers, columns=['Career'])
         
         # Display top 5 recommendations
         st.subheader("Top Career Recommendations")
