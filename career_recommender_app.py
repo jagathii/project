@@ -15,7 +15,7 @@ career_data = load_career_data()
 def calculate_scores(user_profile, careers):
     scores = defaultdict(int)
     weights = {
-        'Skills': 3,
+        'Skills': 2,
         'Interests': 2,
         'Education': 1,
         'Personality': 1
