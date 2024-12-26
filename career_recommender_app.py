@@ -5,7 +5,7 @@ import pandas as pd
 from collections import defaultdict
 
 # Load career data
-@st.cache
+@st.cache_data
 def load_career_data():
     return pd.read_csv('career_data.csv')
 
